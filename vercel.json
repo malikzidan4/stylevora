@@ -1,0 +1,17 @@
+{
+  "framework": "laravel",
+  "buildCommand": "composer install && npm install && npm run build",
+  "devCommand": "npm run dev",
+  "outputDirectory": "public",
+  "env": {
+    "APP_NAME": "StyleVora",
+    "APP_ENV": "production",
+    "APP_DEBUG": "false",
+    "LOG_CHANNEL": "stack"
+  },
+  "git": {
+    "deploymentEnabled": {
+      "main": true
+    }
+  }
+}
